@@ -1,1 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* HEADER */
+.header{
+    width: 100vw;
+    background-color: rgb(33, 12, 53);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px 30px;
+}
+.logo{
+    /* width: 40%; */
+}
+.header-right ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+/* PROFILE */
+.profile-top-section{
+    min-height: 450px;
+    border: 1px solid red;
+}
+.profile-overlay{
+    width: 100vw;
+    background: url('./images/overlay.jpg');
+    min-height: 200px;
+    max-height: 200px;
+    position: relative;
+    z-index: 1000;
+}
+.profile-abs{
+    width: 550px;
+    position: absolute;
+    padding: 20px;
+    bottom: -270px;
+    left: 120px;
+    z-index: -100;
+}
+.abs-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.profile-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: 5;
+    overflow: hidden;
+    box-shadow: 1px 4px 15px black;
+    padding: 5px;
+    background: white;
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.profile-details{
+    align-self: flex-end;
+    color: black;
+    margin-bottom: 20px;
+}
+.profile-details h2{
+    margin-bottom: 15px;
+}
+.p-number{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.profile-details p:last-child{
+    color: rgb(133, 129, 129);
+}
+.about{
+    width: 100%;
+    min-height: 80px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.about h4{
+    margin-bottom: 10px;
+}
+.pref-section > div{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    /* border: 1px solid rgb(191, 10, 236); */
+}
+.pref-section{
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pref{
+    min-width: 50px;
+    min-width: 70px;
+    min-height: 20px;
+    text-align: center;
+    padding: 5px 5px;
+    background: rgb(225, 230, 229);
+    border-radius: 5px;
+    /* border: 1px solid green; */
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.prefs-flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+}
+.prefs-card{
+    max-width: 200px;
+    min-height: 100px;
+    padding: 10px;
+    border: 1px solid green;
+}
+
 

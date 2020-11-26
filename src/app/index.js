@@ -1,8 +1,9 @@
 import React, { useContext } from 'react'
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 
-import Profile from '../pages/Profile'
-import Order from '../pages/Order'
+import Header from './components/Header'
+import Profile from './pages/Profile'
+import Order from './pages/Order'
 import {orderContext} from '../orderContext'
 const App =() =>{
 
@@ -10,6 +11,7 @@ const App =() =>{
   return (
     <div>
        <Router>
+          <Header/>
            <Route path='/' exact component={Profile}/>
            <Route path='/order' component={Order}/>
        </Router>
