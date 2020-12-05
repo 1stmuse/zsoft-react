@@ -1,16 +1,12 @@
 
-
-import Context from './orderContext'
 import App from './app'
 import './App.css';
 
 
-function Main() {
+export default function Main() {
   return (
-    <Context>
-      <App/>
-    </Context>
+    <App/>
   );
 }
 
-export default Main;
+
