@@ -21,13 +21,13 @@ const ContactDetails =() =>{
             </div>
         </div>
         <div className='social-flex'>
-            <span>
+            <span className='social fb'>
                 <i className='fa fa-facebook'></i>
             </span>
-            <span>
+            <span className='social tw'>
                 <i className='fa fa-twitter'></i>
             </span>
-            <span>
+            <span className='social ig'>
                 <i className='fa fa-instagram'></i>
             </span>
         </div>

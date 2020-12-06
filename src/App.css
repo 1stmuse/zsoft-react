@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 h1,h2,h3,h4,h5, p, a{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 *{
     padding: 0;
@@ -13,9 +13,7 @@ p{
     color: #A2AEBB;
 }
 .wrapper{
-    /* min-height: 500px; */
     background-color: #717EC3;
-    /* width: 100vw; */
     padding: 50px;
 }
 .wh-bg{
@@ -62,6 +60,7 @@ p{
     background-color: #717EC3;
     padding: 10px 15px;
     border-radius: 15px;
+    box-shadow: 0px 3px 10px #A2AEBB;
 }
 .form-submit-btn p{
     color: white;
@@ -72,14 +71,69 @@ p{
     height: 200px;
 }
 .contact-info{
-    margin-top: 50px;
+    margin-top: 60px;
     margin-bottom: 20px;
-    border: 1px solid greenyellow;
-    min-height: 150px;
+    min-height: 130px;
 }
 .contact-info div{
     display: flex;
 }
 .contact-info div:nth-child(2){
     margin-top: 20px;
+    margin-bottom: 5px;
+}
+.contact-flex i{
+    color: #A2AEBB;
+    margin-right: 15px;
+}
+.social{
+    width:100px;
+    height: 100px;
+    text-align: center;
+    padding:5px 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+.fb{
+    background-color: blue;
+}
+.tw{
+    background-color: #38AECC;
+}
+.ig{
+    background-color: #C879FF;
+}
+
+@media screen and (max-width:995px){
+    .wh-bg{
+        width: 95%;
+    }
+}
+@media screen and (max-width:755px){
+    .wh-bg{
+        flex-direction: column;
+    }
+    .square{
+        width: 80%;
+    }
+    .left-content{
+        margin-bottom: 30px;
+    }
+    .right-content img{
+        display: none;
+    }
+}
+@media screen and (max-width:550px){
+   .square{
+       width: 100%;
+   }
+   .wh-bg{
+       padding: 20px 10px;
+       width: 100%;
+   }
+   .wrapper{
+       padding: 20px;
+   }
 }
